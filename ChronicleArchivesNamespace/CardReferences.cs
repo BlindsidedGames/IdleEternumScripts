@@ -7,6 +7,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UpgradeSystem;
+using EventHandler = Blindsided.EventHandler;
 using static ChronicleArchivesNamespace.ChronicleArchiveStaticReferences;
 using static Blindsided.SaveData.TextColourStrings;
 
@@ -32,6 +33,22 @@ namespace ChronicleArchivesNamespace
         public bool updateTimeScale;
 
         public UpgradeSo upgrade;
+
+        private void OnEnable()
+        {
+            EventHandler.OnLoadData += OnLoadData;
+        }
+
+        private void OnDisable()
+        {
+            EventHandler.OnLoadData -= OnLoadData;
+        }
+
+        private void OnLoadData()
+        {
+            SetUpgradeData();
+            SetTexts();
+        }
 
         [Button]
         public void SetName()
