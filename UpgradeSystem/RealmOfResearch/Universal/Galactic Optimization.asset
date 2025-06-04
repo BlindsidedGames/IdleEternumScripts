@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Galactic Optimization
+  m_EditorClassIdentifier: 
+  guid: 50e8af9e-71d7-402b-a338-a6a46e25d15d
+  upgradeName: Galactic Optimization
+  description: 'Increases production by <color=#98C560>5%</color> and creation by
+    <color=#98C560>5%</color> for all buildings.
+
+    <color=#A5A5A5><i>The stars
+    align to fine-tune every mechanism, ushering in an era of unparalleled efficiency.</i></color>'
+  costCurrencyType: 0
+  baseCost: 56700000000000000
+  costMultiplier: 1.83
+  maxPurchases: 100
+  effectGroups:
+  - tags:
+    - FoPBuilding
+    modifications:
+    - statType: 0
+      modifierType: 1
+      baseValue: 1.05
+    - statType: 1
+      modifierType: 1
+      baseValue: 1.05
+  isUnlocked: 0

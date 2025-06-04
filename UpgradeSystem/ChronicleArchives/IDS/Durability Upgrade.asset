@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63255c2829046bd994583bc657251a7, type: 3}
+  m_Name: Durability Upgrade
+  m_EditorClassIdentifier: 
+  guid: 161e2bfb-4a4f-4b75-8610-2e749ca072ed
+  upgradeName: Durability Upgrade
+  description: 'Increases <color=#C69B60>Panel</color> Lifetime by <color=#98C560>1</color>
+    <color=#A5A5A5>Second</color> per level.
+
+    <color=#A5A5A5><i>Many researchers
+    were sacrificed developing this uphgrade. Their noggins were not up to the task!'
+  costCurrencyType: 1
+  baseCost: 1000000000
+  costMultiplier: 5
+  maxPurchases: 10
+  effectGroups:
+  - tags:
+    - IdsBM
+    modifications:
+    - statType: 12
+      modifierType: 0
+      baseValue: 1
+  isUnlocked: 0

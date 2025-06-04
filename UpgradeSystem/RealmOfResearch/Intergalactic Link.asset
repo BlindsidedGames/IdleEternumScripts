@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Intergalactic Link
+  m_EditorClassIdentifier: 
+  guid: 6d0e0874-3854-43cc-ad6d-a4c9a2d478c2
+  upgradeName: Intergalactic Link
+  description: "Increases Galactic Nexus production by <color=#98C560>0.9</color>
+    and creation by <color=#98C560>0.9</color> per level.\n<color=#A5A5A5><i>Robust
+    connections stretch across the void, steadily fortifying the nexus\u2019s power.</i></color>"
+  costCurrencyType: 0
+  baseCost: 400000000
+  costMultiplier: 1.25
+  maxPurchases: 45
+  effectGroups:
+  - tags:
+    - FoPGN
+    modifications:
+    - statType: 0
+      modifierType: 0
+      baseValue: 0.9
+    - statType: 1
+      modifierType: 0
+      baseValue: 0.9
+  isUnlocked: 0

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Dimensional Drift
+  m_EditorClassIdentifier: 
+  guid: b26c6b23-47e2-42b6-9f88-804dd624352a
+  upgradeName: Dimensional Drift
+  description: "Increases Galactic Nexus production by <color=#98C560>0.8</color>
+    and creation by <color=#98C560>1.2</color> per level, but reduces adjacent buildings\u2019
+    production bonus by <color=#C56260>2%</color> per level.\n<color=#A5A5A5><i>A
+    subtle shift between dimensions dilutes nearby energy, trading local synergy
+    for raw output.</i></color>"
+  costCurrencyType: 0
+  baseCost: 99000000000000
+  costMultiplier: 1.25
+  maxPurchases: 10
+  effectGroups:
+  - tags:
+    - FoPGN
+    modifications:
+    - statType: 0
+      modifierType: 0
+      baseValue: 0.8
+    - statType: 1
+      modifierType: 0
+      baseValue: 1.2
+    - statType: 0
+      modifierType: 1
+      baseValue: 0.98
+  isUnlocked: 0

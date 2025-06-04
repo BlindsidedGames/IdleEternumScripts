@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109559cd717f4ea0af1d2caaef803817, type: 3}
+  m_Name: Carbon Reinforcement
+  m_EditorClassIdentifier: 
+  guid: 3ae9c807-ef4a-4929-bc94-3ee5234c0314
+  upgradeName: Carbon Reinforcement
+  description: Increases <color=#C69B60>Panel</color> Lifetime by <color=#98C560>10</color>
+    <color=#A5A5A5>Timescale Seconds</color> per level.
+  costCurrencyType: 0
+  baseCost: 10
+  costMultiplier: 1.15
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - IdsBM
+    modifications:
+    - statType: 12
+      modifierType: 0
+      baseValue: 10
+  isUnlocked: 0

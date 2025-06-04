@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8899c65292441919ebd34f14d82a43d, type: 3}
+  m_Name: Harmonic Resonance Dampening
+  m_EditorClassIdentifier: 
+  guid: f3b9e477-051c-4e8c-bfc6-072305b38efb
+  upgradeName: Harmonic Resonance Dampening
+  description: Reduces <color=#C69B60>Active Converter Cost Increase</color> by <color=#98C560>-0.1%</color>
+    per level
+  costCurrencyType: 3
+  baseCost: 10
+  costMultiplier: 1.5
+  maxPurchases: 10
+  effectGroups:
+  - tags:
+    - TMES
+    modifications:
+    - statType: 35
+      modifierType: 0
+      baseValue: -0.1
+  isUnlocked: 0

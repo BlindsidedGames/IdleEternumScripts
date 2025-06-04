@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e459f6823c3247819764eb38762ea115, type: 3}
+  m_Name: Nebular Economies
+  m_EditorClassIdentifier: 
+  guid: 14562d26-d755-4e08-96a0-5711e1d2adb3
+  upgradeName: Nebular Economies
+  description: By subtly aligning chaotic nebular energies, operational costs drop;
+    when toggled, the generator optimizes resource efficiency for a big discount.
+  costCurrencyType: 0
+  baseCost: 512
+  costMultiplier: 1.15
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - FoPNG
+    modifications:
+    - statType: 2
+      modifierType: 1
+      baseValue: 0.97
+  isUnlocked: 0

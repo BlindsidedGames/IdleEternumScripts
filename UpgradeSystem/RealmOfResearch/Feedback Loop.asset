@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Feedback Loop
+  m_EditorClassIdentifier: 
+  guid: 4db4fcaa-97c6-4581-83af-1b01a9627e1b
+  upgradeName: Feedback Loop
+  description: 
+  costCurrencyType: 0
+  baseCost: 10
+  costMultiplier: 1.25
+  maxPurchases: 10
+  effectGroups: []
+  isUnlocked: 0

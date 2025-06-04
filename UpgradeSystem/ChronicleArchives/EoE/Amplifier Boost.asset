@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8899c65292441919ebd34f14d82a43d, type: 3}
+  m_Name: Amplifier Boost
+  m_EditorClassIdentifier: 
+  guid: 535b0bf5-c555-47e8-b91d-55c5d796187f
+  upgradeName: Amplifier Boost
+  description: 'Increases the buff provided by <color=#C69B60>Energy Amplifier</color>
+    by <color=#98C560>2%</color> per level.
+
+
+'
+  costCurrencyType: 0
+  baseCost: 5
+  costMultiplier: 1.5
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - EoEEA
+    modifications:
+    - statType: 18
+      modifierType: 1
+      baseValue: 1.02
+  isUnlocked: 0

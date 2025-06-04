@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Universal Efficiency
+  m_EditorClassIdentifier: 
+  guid: 81763d0c-0142-4351-9553-0273a1f0a8d5
+  upgradeName: Universal Efficiency
+  description: 'Reduces cost by <color=#98C560>5%</color> for all buildings.
+
+    <color=#A5A5A5><i>An
+    undercurrent of efficiency ripples through every structure, lightening the burden
+    of progress.</i></color>'
+  costCurrencyType: 0
+  baseCost: 1230000000000
+  costMultiplier: 1.85
+  maxPurchases: 100
+  effectGroups:
+  - tags:
+    - FoPBuilding
+    modifications:
+    - statType: 2
+      modifierType: 1
+      baseValue: 0.95
+  isUnlocked: 0

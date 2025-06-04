@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0a3006ab0ac44a8d8e9802136fa499b5, type: 3}
+  m_Name: Melted Momentum
+  m_EditorClassIdentifier: 
+  guid: 8cb6e5d0-2024-47cd-a763-e304c3fc9759
+  upgradeName: Melted Momentum
+  description: '<b>Base</b> | Increases <color=#C69B60>Celestial Foundry</color>
+    production by <color=#98C560>3%</color> per level
+
+    <b>Empowered</b> | Increases
+    <color=#C69B60>Celestial Foundry</color> production by a further <color=#98C560>7%</color>
+    per level.'
+  costCurrencyType: 0
+  baseCost: 10
+  costMultiplier: 1.15
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - FoPCF
+    modifications:
+    - statType: 0
+      modifierType: 1
+      baseValue: 1.07
+  isUnlocked: 0

@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Celestial Burn
+  m_EditorClassIdentifier: 
+  guid: be630ce8-80f3-4f84-beab-a0d2ecf36fe1
+  upgradeName: Celestial Burn
+  description: 'Increases Nova Spire production by <color=#98C560>1.2</color> and
+    creation by <color=#98C560>0.8</color> per level, but reduces creation by <color=#C56260>2%</color>
+    per level.
+
+    <color=#A5A5A5><i>The fierce heat of fusion ignites progress,
+    yet its consuming blaze leaves behind a diminished creative spark.</i></color>'
+  costCurrencyType: 0
+  baseCost: 700000000000000
+  costMultiplier: 1.25
+  maxPurchases: 10
+  effectGroups:
+  - tags:
+    - FoPNS
+    modifications:
+    - statType: 0
+      modifierType: 0
+      baseValue: 1.2
+    - statType: 1
+      modifierType: 0
+      baseValue: 0.8
+    - statType: 1
+      modifierType: 1
+      baseValue: 0.98
+  isUnlocked: 0

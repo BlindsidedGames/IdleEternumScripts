@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed62c77d2714b40bcb0e2d6e2594c9f, type: 3}
+  m_Name: Planet
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: BuildingSaveData
+      Entry: 7
+      Data: 0|Blindsided.SaveData.ChronicleMinigames.IdleDysonSwarmBuildingSaveData,
+        Assembly-CSharp
+    - Name: PurchaseData
+      Entry: 7
+      Data: 1|Blindsided.SaveData.ChronicleMinigames.IdleDysonSwarmBuildingPurchaseData,
+        Assembly-CSharp
+    - Name: Purchased
+      Entry: 4
+      Data: 0
+    - Name: Created
+      Entry: 4
+      Data: 0
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: UpgradableStats
+      Entry: 7
+      Data: 2|System.Collections.Generic.Dictionary`2[[UpgradeSystem.StatType, Assembly-CSharp],[UpgradeSystem.UpgradableStat,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 3|System.Collections.Generic.EnumEqualityComparer`1[[UpgradeSystem.StatType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 2
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 10
+    - Name: $v
+      Entry: 7
+      Data: 4|UpgradeSystem.UpgradableStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 1
+    - Name: additiveModifiers
+      Entry: 7
+      Data: 5|System.Collections.Generic.List`1[[UpgradeSystem.Modifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multiplicativeModifiers
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[UpgradeSystem.Modifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cachedValue
+      Entry: 4
+      Data: 0
+    - Name: Floored
+      Entry: 5
+      Data: false
+    - Name: _cachedBreakdown
+      Entry: 6
+      Data: 
+    - Name: _isDirty
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 11
+    - Name: $v
+      Entry: 7
+      Data: 7|UpgradeSystem.UpgradableStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 1
+    - Name: additiveModifiers
+      Entry: 7
+      Data: 8|System.Collections.Generic.List`1[[UpgradeSystem.Modifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multiplicativeModifiers
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[UpgradeSystem.Modifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cachedValue
+      Entry: 4
+      Data: 0
+    - Name: Floored
+      Entry: 5
+      Data: false
+    - Name: _cachedBreakdown
+      Entry: 6
+      Data: 
+    - Name: _isDirty
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  BuildingName: Planet
+  ProducedBuilding: {fileID: 11400000, guid: 59a2269dda2620942a2817d7a84314f8, type: 2}
+  CostExponent: 1.06
+  BaseCost: 1e+12
+  tags:
+  - IdsBuilding
+  - IdsP

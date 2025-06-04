@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Interstellar Boost
+  m_EditorClassIdentifier: 
+  guid: 9c69389f-a66b-4a16-ab3a-cad1483b32df
+  upgradeName: Interstellar Boost
+  description: "Multiplies Nebula Generator production by <color=#98C560>8%</color>
+    and creation by <color=#98C560>5%</color> per level.\n<color=#A5A5A5><i>Celestial
+    winds propel the generator\u2019s capabilities, amplifying its cosmic output
+    with every surge.</i></color>"
+  costCurrencyType: 0
+  baseCost: 12000000
+  costMultiplier: 1.25
+  maxPurchases: 25
+  effectGroups:
+  - tags:
+    - FoPNG
+    modifications:
+    - statType: 0
+      modifierType: 1
+      baseValue: 1.08
+    - statType: 1
+      modifierType: 1
+      baseValue: 1.05
+  isUnlocked: 0

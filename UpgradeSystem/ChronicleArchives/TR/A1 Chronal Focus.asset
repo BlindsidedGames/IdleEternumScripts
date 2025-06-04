@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8899c65292441919ebd34f14d82a43d, type: 3}
+  m_Name: A1 Chronal Focus
+  m_EditorClassIdentifier: 
+  guid: e6ddc42b-98e5-4c83-aff1-062e7816a3ce
+  upgradeName: A1 Chronal Focus
+  description: 'Increases temporal effectiveness on hex <color=#C69B60>A1</color>
+    by <color=#98C560>10%</color> per level.
+
+
+'
+  costCurrencyType: 0
+  baseCost: 10
+  costMultiplier: 1.5
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - A1
+    modifications:
+    - statType: 27
+      modifierType: 1
+      baseValue: 1.1
+  isUnlocked: 0

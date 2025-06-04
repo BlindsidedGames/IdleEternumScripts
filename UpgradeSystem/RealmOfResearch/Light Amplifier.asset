@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Light Amplifier
+  m_EditorClassIdentifier: 
+  guid: 8a175707-6f6c-46b5-a171-a2d50f5ed226
+  upgradeName: Light Amplifier
+  description: "Multiplies Eternity Beacon production by <color=#98C560>6%</color>
+    and creation by <color=#98C560>6%</color> per level.\n<color=#A5A5A5><i>An intricate
+    amplifier magnifies every ray, projecting the beacon\u2019s light far into the
+    cosmos.</i></color>"
+  costCurrencyType: 0
+  baseCost: 2210000000000
+  costMultiplier: 1.25
+  maxPurchases: 30
+  effectGroups:
+  - tags:
+    - FoPEB
+    modifications:
+    - statType: 0
+      modifierType: 1
+      baseValue: 1.06
+    - statType: 1
+      modifierType: 1
+      baseValue: 1.06
+  isUnlocked: 0

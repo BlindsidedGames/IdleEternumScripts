@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8899c65292441919ebd34f14d82a43d, type: 3}
+  m_Name: Forward Momentum
+  m_EditorClassIdentifier: 
+  guid: 0f69b108-717e-4fa3-8ca6-64465f19d8f2
+  upgradeName: Forward Momentum
+  description: Increases <color=#C69B60>Max Forwards Time</color> by <color=#98C560>60
+    <color=#A5A5A5>Seconds</color></color> per level.
+  costCurrencyType: 0
+  baseCost: 10
+  costMultiplier: 1.15
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - Timeline
+    modifications:
+    - statType: 3
+      modifierType: 0
+      baseValue: 60
+  isUnlocked: 0

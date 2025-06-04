@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8899c65292441919ebd34f14d82a43d, type: 3}
+  m_Name: Rapid Excavation
+  m_EditorClassIdentifier: 
+  guid: 377fbe19-9cb8-47f7-bb53-70f85a60618d
+  upgradeName: Rapid Excavation
+  description: 'Reduces <color=#C69B60>Chronoton Drill</color> duration by <color=#98C560>5%</color>
+    per level.
+
+
+'
+  costCurrencyType: 0
+  baseCost: 5
+  costMultiplier: 1.5
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - EoECD
+    modifications:
+    - statType: 6
+      modifierType: 1
+      baseValue: 0.95
+  isUnlocked: 0

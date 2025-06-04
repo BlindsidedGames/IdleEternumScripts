@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Radiant Surge
+  m_EditorClassIdentifier: 
+  guid: e93323ec-ae05-4b38-a4c2-a9aa6aac0188
+  upgradeName: Radiant Surge
+  description: 'Multiplies Nova Spire production by <color=#98C560>7%</color> and
+    creation by <color=#98C560>5%</color> per level.
+
+    <color=#A5A5A5><i>The surge
+    of stellar energy transforms light into unstoppable force, elevating every output.</i></color>'
+  costCurrencyType: 0
+  baseCost: 38500000000
+  costMultiplier: 1.25
+  maxPurchases: 25
+  effectGroups:
+  - tags:
+    - FoPNS
+    modifications:
+    - statType: 0
+      modifierType: 1
+      baseValue: 1.07
+    - statType: 1
+      modifierType: 1
+      baseValue: 1.05
+  isUnlocked: 0

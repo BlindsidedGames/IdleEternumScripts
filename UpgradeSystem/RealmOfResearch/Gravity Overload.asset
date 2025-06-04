@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Gravity Overload
+  m_EditorClassIdentifier: 
+  guid: 0e9fd83a-56a4-4f9c-8f25-d92a9a9f632f
+  upgradeName: Gravity Overload
+  description: 'Increases Star Cradle production by <color=#98C560>0.15</color> per
+    level.
+
+    <color=#A5A5A5><i>A powerful gravitational pull drives output higher,
+    though every gain comes with the weight of rising expense.</i></color>'
+  costCurrencyType: 0
+  baseCost: 120000000
+  costMultiplier: 1.25
+  maxPurchases: 15
+  effectGroups:
+  - tags:
+    - FoPSC
+    modifications:
+    - statType: 0
+      modifierType: 0
+      baseValue: 0.15
+  isUnlocked: 0

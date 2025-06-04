@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Crucible Catalyst
+  m_EditorClassIdentifier: 
+  guid: 2cd92e6c-fb4b-40ed-8aad-b1f118a861fa
+  upgradeName: Crucible Catalyst
+  description: 'Increases Infinity Crucible production by <color=#98C560>1.0</color>
+    and creation by <color=#98C560>0.5</color> per level.
+
+    <color=#A5A5A5><i>A
+    catalytic spark ignites new potential, turning latent energy into brilliant output.</i></color>'
+  costCurrencyType: 0
+  baseCost: 9960000000000
+  costMultiplier: 1.25
+  maxPurchases: 50
+  effectGroups:
+  - tags:
+    - FoPIC
+    modifications:
+    - statType: 0
+      modifierType: 0
+      baseValue: 1
+    - statType: 1
+      modifierType: 0
+      baseValue: 0.5
+  isUnlocked: 0

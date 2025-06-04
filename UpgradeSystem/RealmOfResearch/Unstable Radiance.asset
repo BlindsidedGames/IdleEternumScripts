@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8899c65292441919ebd34f14d82a43d, type: 3}
+  m_Name: Unstable Radiance
+  m_EditorClassIdentifier: 
+  guid: 30beb8f3-540b-4036-a724-4b36b114d6b3
+  upgradeName: Unstable Radiance
+  description: 'Increases Star Cradle production by <color=#98C560>0.25</color> per
+    level, but reduces production by <color=#C56260>3%</color> per level.
+
+    <color=#A5A5A5><i>A
+    burst of erratic energy temporarily boosts output, though its inherent instability
+    erodes efficiency with each surge.</i></color>'
+  costCurrencyType: 0
+  baseCost: 44000000000000
+  costMultiplier: 1.25
+  maxPurchases: 10
+  effectGroups:
+  - tags:
+    - FoPSC
+    modifications:
+    - statType: 0
+      modifierType: 0
+      baseValue: 0.25
+    - statType: 0
+      modifierType: 1
+      baseValue: 0.97
+  isUnlocked: 0

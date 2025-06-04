@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Stellar Coordination
+  m_EditorClassIdentifier: 
+  guid: 131e6b28-447e-464a-8dfb-f06ed12c7ed3
+  upgradeName: Stellar Coordination
+  description: 'Reduces cost by <color=#98C560>3%</color> and increases production
+    by <color=#98C560>2%</color> for all buildings.
+
+    <color=#A5A5A5><i>The cosmic
+    ballet synchronizes every structure, delivering both economic relief and a gentle
+    boost in energy.</i></color>'
+  costCurrencyType: 0
+  baseCost: 6.78e+17
+  costMultiplier: 1.72
+  maxPurchases: 100
+  effectGroups:
+  - tags:
+    - FoPBuilding
+    modifications:
+    - statType: 2
+      modifierType: 1
+      baseValue: 0.97
+    - statType: 0
+      modifierType: 1
+      baseValue: 1.02
+  isUnlocked: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Time
+  m_EditorClassIdentifier: 
+  guid: db5b40c5-03fa-498d-96f8-b7bb22616c3b
+  upgradeName: More Time
+  description: 'Increases <color=#C69B60>Maximum Time</color> in either direction
+    by <color=#98C560>30 <color=#A5A5A5>Seconds</color></color> per level.
+
+    <color=#A5A5A5><i>Expanding
+    Chronoton research allows for the  manipulation of the temporal layers</i></color>'
+  costCurrencyType: 0
+  baseCost: 1000
+  costMultiplier: 1.96
+  maxPurchases: 36
+  effectGroups:
+  - tags:
+    - Timeline
+    modifications:
+    - statType: 5
+      modifierType: 0
+      baseValue: 30
+  isUnlocked: 0

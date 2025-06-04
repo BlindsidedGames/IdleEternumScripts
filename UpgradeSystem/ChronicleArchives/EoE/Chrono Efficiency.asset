@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8899c65292441919ebd34f14d82a43d, type: 3}
+  m_Name: Chrono Efficiency
+  m_EditorClassIdentifier: 
+  guid: 23b13330-9e2f-492c-bf86-f5c03c714ed9
+  upgradeName: Chrono Efficiency
+  description: 'Reduces <color=#C69B60>Chronoton Drill</color> cost by <color=#98C560>3%</color>
+    per level.
+
+
+'
+  costCurrencyType: 0
+  baseCost: 5
+  costMultiplier: 1.5
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - EoECD
+    modifications:
+    - statType: 15
+      modifierType: 1
+      baseValue: 0.97
+  isUnlocked: 0

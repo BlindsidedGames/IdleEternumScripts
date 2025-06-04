@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8899c65292441919ebd34f14d82a43d, type: 3}
+  m_Name: Flux Core
+  m_EditorClassIdentifier: 
+  guid: f5c6d589-d477-42f0-a421-fa924c3ff9c9
+  upgradeName: Flux Core
+  description: 'Increases the rate at which time flows in the <color=#C69B60>Either
+    Direction</color> by <color=#98C560>0.5 <color=#A5A5A5>Seconds</color></color>
+    per level.
+
+'
+  costCurrencyType: 0
+  baseCost: 2
+  costMultiplier: 1.5
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - Timeline
+    modifications:
+    - statType: 19
+      modifierType: 0
+      baseValue: 0.5
+  isUnlocked: 0

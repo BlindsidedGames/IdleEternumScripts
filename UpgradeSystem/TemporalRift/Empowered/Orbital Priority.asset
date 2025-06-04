@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e459f6823c3247819764eb38762ea115, type: 3}
+  m_Name: Orbital Priority
+  m_EditorClassIdentifier: 
+  guid: ec326c3c-9685-4b24-82f2-732238d6060e
+  upgradeName: Orbital Priority
+  description: "<b>Base</b> | Increases <color=#C69B60>Starting Planets</color> by
+    <color=#98C560>+1</color> per level\n<b>Empowered</b> | Increases <color=#C69B60>Starting
+    Planets</color> by an additional <color=#98C560>+4</color> per level\nNot every
+    conquest starts small. Sometimes, it begins with a world already claimed\u2014primed
+    for power, ready to rise."
+  costCurrencyType: 0
+  baseCost: 10
+  costMultiplier: 1.15
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - IdsPM
+    modifications:
+    - statType: 32
+      modifierType: 0
+      baseValue: 4
+  isUnlocked: 0

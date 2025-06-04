@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63255c2829046bd994583bc657251a7, type: 3}
+  m_Name: Cash Boosts
+  m_EditorClassIdentifier: 
+  guid: 8623c622-0fe8-4162-9cd3-37a1cf2753c2
+  upgradeName: Cash Boosts
+  description: 'Increases <color=#C69B60>Cash</color> production by <color=#98C560>5%</color>
+    per level.
+
+    <color=#A5A5A5><i>Refined marketing strategies allow you to increase
+    the price of your energy yielding better income!'
+  costCurrencyType: 1
+  baseCost: 5000
+  costMultiplier: 1.15
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - IdsBM
+    modifications:
+    - statType: 25
+      modifierType: 1
+      baseValue: 1.05
+  isUnlocked: 0

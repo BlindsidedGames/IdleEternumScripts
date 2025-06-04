@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63255c2829046bd994583bc657251a7, type: 3}
+  m_Name: AI Resurgence
+  m_EditorClassIdentifier: 
+  guid: 31a8b1c8-d319-4830-9cad-e0a45b8e7bb7
+  upgradeName: AI Resurgence
+  description: 'Increases <color=#C69B60>AI Manager</color> production by <color=#98C560>3%</color>
+    per level.
+
+    <color=#A5A5A5><i>Refactoriong code makes your AI Managers more
+    efficient, thus producing more Assembly Lines!'
+  costCurrencyType: 1
+  baseCost: 1000000
+  costMultiplier: 1.15
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - IdsAM
+    modifications:
+    - statType: 11
+      modifierType: 1
+      baseValue: 1.03
+  isUnlocked: 0

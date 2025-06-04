@@ -1,0 +1,359 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d606460819343f0b706006558928e62, type: 3}
+  m_Name: Galactic Nexus
+  m_EditorClassIdentifier: 
+  serializationData:
+    SerializedFormat: 2
+    SerializedBytes: 
+    ReferencedUnityObjects: []
+    SerializedBytesString: 
+    Prefab: {fileID: 0}
+    PrefabModificationsReferencedUnityObjects: []
+    PrefabModifications: []
+    SerializationNodes:
+    - Name: UpgradableStats
+      Entry: 7
+      Data: 0|System.Collections.Generic.Dictionary`2[[UpgradeSystem.StatType, Assembly-CSharp],[UpgradeSystem.UpgradableStat,
+        Assembly-CSharp]], mscorlib
+    - Name: comparer
+      Entry: 7
+      Data: 1|System.Collections.Generic.EnumEqualityComparer`1[[UpgradeSystem.StatType,
+        Assembly-CSharp]], mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 12
+      Data: 3
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 2
+    - Name: $v
+      Entry: 7
+      Data: 2|UpgradeSystem.UpgradableStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 1
+    - Name: additiveModifiers
+      Entry: 7
+      Data: 3|System.Collections.Generic.List`1[[UpgradeSystem.Modifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multiplicativeModifiers
+      Entry: 7
+      Data: 4|System.Collections.Generic.List`1[[UpgradeSystem.Modifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cachedValue
+      Entry: 4
+      Data: 0.00013172506537263679
+    - Name: Floored
+      Entry: 5
+      Data: false
+    - Name: _cachedBreakdown
+      Entry: 1
+      Data: '<color=#CCCCCC><b>Base</b></color>: 1
+
+        <color=#CCCCCC><b>Additive
+        bonuses</b></color>
+
+        + <color=#98C560><b><mspace=0.6em>10</mspace>.<mspace=0.6em>5</mspace><font-weight=400></font-weight></b></color>
+        from <b>Overconnected Costs</b>
+
+
+        <color=#CCCCCC><b>Multiplicative
+        bonuses</b></color>
+
+        * <color=#98C560><b><mspace=0.6em>0</mspace>.<mspace=0.6em>00</mspace><font-weight=400></font-weight></b></color>
+        from <b>Universal Efficiency</b>
+
+        * <color=#98C560><b><mspace=0.6em>0</mspace>.<mspace=0.6em>10</mspace><font-weight=400></font-weight></b></color>
+        from <b>Stellar Coordination</b>
+
+        * <color=#98C560><b><mspace=0.6em>0</mspace>.<mspace=0.6em>33</mspace><font-weight=400></font-weight></b></color>
+        from <b>Temporal Shift</b>
+
+
+        <color=#CCCCCC><b>Total</b></color>
+
+        <color=#98C560><mspace=0.6em>0</mspace>.<mspace=0.6em>00</mspace><font-weight=400></font-weight></color>
+
+        AKA
+        <color=#91CC95>0.00</color>'
+    - Name: _isDirty
+      Entry: 5
+      Data: true
+    - Name: flipMultiplicativeColor
+      Entry: 5
+      Data: true
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 1
+    - Name: $v
+      Entry: 7
+      Data: 5|UpgradeSystem.UpgradableStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 0.6
+    - Name: additiveModifiers
+      Entry: 7
+      Data: 6|System.Collections.Generic.List`1[[UpgradeSystem.Modifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multiplicativeModifiers
+      Entry: 7
+      Data: 7|System.Collections.Generic.List`1[[UpgradeSystem.Modifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cachedValue
+      Entry: 4
+      Data: 15103004616731.992
+    - Name: Floored
+      Entry: 5
+      Data: false
+    - Name: _cachedBreakdown
+      Entry: 1
+      Data: '<color=#CCCCCC><b>Base</b></color>: 0.6
+
+        <color=#CCCCCC><b>Additive
+        bonuses</b></color>
+
+        + <color=#98C560><b><mspace=0.6em>57</mspace>.<mspace=0.6em>0</mspace><font-weight=400></font-weight></b></color>
+        from <b>Interdimensional Boost</b>
+
+        + <color=#98C560><b><mspace=0.6em>40</mspace>.<mspace=0.6em>5</mspace><font-weight=400></font-weight></b></color>
+        from <b>Intergalactic Link</b>
+
+        + <color=#98C560><b><mspace=0.6em>10</mspace>.<mspace=0.6em>0</mspace><font-weight=400></font-weight></b></color>
+        from <b>Overconnected Costs</b>
+
+        + <color=#98C560><b><mspace=0.6em>12</mspace>.<mspace=0.6em>0</mspace><font-weight=400></font-weight></b></color>
+        from <b>Dimensional Drift</b>
+
+        + <color=#98C560><b><mspace=0.6em>46</mspace>.<mspace=0.6em>0</mspace><font-weight=400></font-weight></b></color>
+        from <b>Quantum Leap</b>
+
+
+        <color=#CCCCCC><b>Multiplicative bonuses</b></color>
+
+        *
+        <color=#98C560><b><mspace=0.6em>4</mspace>.<mspace=0.6em>32</mspace><font-weight=400></font-weight></b></color>
+        from <b>Network Expansion</b>
+
+        * <color=#98C560><b><mspace=0.6em>16</mspace>.<mspace=0.6em>7</mspace><font-weight=400>
+        M</font-weight></b></color> from <b>Celestial Alignment</b>
+
+        * <color=#98C560><b><mspace=0.6em>10</mspace>.<mspace=0.6em>5</mspace><font-weight=400></font-weight></b></color>
+        from <b>Universal Nexus</b>
+
+        * <color=#98C560><b><mspace=0.6em>119</mspace><font-weight=400></font-weight></b></color>
+        from <b>Galactic Optimization</b>
+
+
+        <color=#CCCCCC><b>Total</b></color>
+
+        <color=#98C560><mspace=0.6em>15</mspace>.<mspace=0.6em>1</mspace><font-weight=400>
+        T</font-weight></color>
+
+        AKA <color=#91CC95>15,103,004,616,732.00</color>'
+    - Name: _isDirty
+      Entry: 5
+      Data: true
+    - Name: flipMultiplicativeColor
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 7
+      Data: 
+    - Name: $k
+      Entry: 3
+      Data: 0
+    - Name: $v
+      Entry: 7
+      Data: 8|UpgradeSystem.UpgradableStat, Assembly-CSharp
+    - Name: baseValue
+      Entry: 4
+      Data: 1
+    - Name: additiveModifiers
+      Entry: 7
+      Data: 9|System.Collections.Generic.List`1[[UpgradeSystem.Modifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: multiplicativeModifiers
+      Entry: 7
+      Data: 10|System.Collections.Generic.List`1[[UpgradeSystem.Modifier, Assembly-CSharp]],
+        mscorlib
+    - Name: 
+      Entry: 12
+      Data: 0
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: _cachedValue
+      Entry: 4
+      Data: 6834947006917.7939
+    - Name: Floored
+      Entry: 5
+      Data: false
+    - Name: _cachedBreakdown
+      Entry: 1
+      Data: '<color=#CCCCCC><b>Base</b></color>: 1
+
+        <color=#CCCCCC><b>Additive
+        bonuses</b></color>
+
+        + <color=#98C560><b><mspace=0.6em>57</mspace>.<mspace=0.6em>0</mspace><font-weight=400></font-weight></b></color>
+        from <b>Interdimensional Boost</b>
+
+        + <color=#98C560><b><mspace=0.6em>40</mspace>.<mspace=0.6em>5</mspace><font-weight=400></font-weight></b></color>
+        from <b>Intergalactic Link</b>
+
+        + <color=#98C560><b><mspace=0.6em>10</mspace>.<mspace=0.6em>0</mspace><font-weight=400></font-weight></b></color>
+        from <b>Overconnected Costs</b>
+
+        + <color=#98C560><b><mspace=0.6em>8</mspace>.<mspace=0.6em>00</mspace><font-weight=400></font-weight></b></color>
+        from <b>Dimensional Drift</b>
+
+        + <color=#98C560><b><mspace=0.6em>92</mspace>.<mspace=0.6em>0</mspace><font-weight=400></font-weight></b></color>
+        from <b>Quantum Leap</b>
+
+
+        <color=#CCCCCC><b>Multiplicative bonuses</b></color>
+
+        *
+        <color=#98C560><b><mspace=0.6em>4</mspace>.<mspace=0.6em>32</mspace><font-weight=400></font-weight></b></color>
+        from <b>Network Expansion</b>
+
+        * <color=#98C560><b><mspace=0.6em>43</mspace>.<mspace=0.6em>2</mspace><font-weight=400>
+        K</font-weight></b></color> from <b>Cosmic Synergy</b>
+
+        * <color=#98C560><b><mspace=0.6em>4</mspace>.<mspace=0.6em>41</mspace><font-weight=400></font-weight></b></color>
+        from <b>Stellar Coordination</b>
+
+        * <color=#98C560><b><mspace=0.6em>38</mspace>.<mspace=0.6em>6</mspace><font-weight=400></font-weight></b></color>
+        from <b>Temporal Shift</b>
+
+        * <color=#98C560><b><mspace=0.6em>10</mspace>.<mspace=0.6em>5</mspace><font-weight=400></font-weight></b></color>
+        from <b>Universal Nexus</b>
+
+        * <color=#C56260><b><mspace=0.6em>0</mspace>.<mspace=0.6em>81</mspace><font-weight=400></font-weight></b></color>
+        from <b>Dimensional Drift</b>
+
+        * <color=#98C560><b><mspace=0.6em>119</mspace><font-weight=400></font-weight></b></color>
+        from <b>Galactic Optimization</b>
+
+
+        <color=#CCCCCC><b>Total</b></color>
+
+        <color=#98C560><mspace=0.6em>6</mspace>.<mspace=0.6em>83</mspace><font-weight=400>
+        T</font-weight></color>
+
+        AKA <color=#91CC95>6,834,947,006,917.79</color>'
+    - Name: _isDirty
+      Entry: 5
+      Data: true
+    - Name: flipMultiplicativeColor
+      Entry: 5
+      Data: false
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+    - Name: 
+      Entry: 13
+      Data: 
+    - Name: 
+      Entry: 8
+      Data: 
+  buildingName: Galactic Nexus
+  costExponent: 1.06
+  baseCost: 94420
+  baseProduction: 1
+  baseCreation: 0.6
+  creates: 1
+  producedCurrencyName: Quantum Seed
+  requiredCurrencyName: Nova Core
+  producedBuildingName: Nova Spire
+  pluralProducedCurrencyName: Quantum Seeds
+  pluralRequiredCurrencyName: Nova Cores
+  pluralProducedBuildingName: Nova Spires
+  sortOrder: 4

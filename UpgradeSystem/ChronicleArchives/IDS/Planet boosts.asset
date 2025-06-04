@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63255c2829046bd994583bc657251a7, type: 3}
+  m_Name: Planet boosts
+  m_EditorClassIdentifier: 
+  guid: f49e08a1-0969-4249-9abf-1bd1df615412
+  upgradeName: Planet Assembly
+  description: 'Increases <color=#C69B60>Planet</color> production by <color=#98C560>3%</color>
+    per level.
+
+    <color=#A5A5A5><i>Terraform some of your Planets, Machine worlds
+    allow more room for Servers!'
+  costCurrencyType: 1
+  baseCost: 2000000000
+  costMultiplier: 1.15
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - IdsP
+    modifications:
+    - statType: 11
+      modifierType: 1
+      baseValue: 1.03
+  isUnlocked: 0

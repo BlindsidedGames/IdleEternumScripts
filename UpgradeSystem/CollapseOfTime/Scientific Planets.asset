@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109559cd717f4ea0af1d2caaef803817, type: 3}
+  m_Name: Scientific Planets
+  m_EditorClassIdentifier: 
+  guid: bfeebb05-abb8-48f9-be30-477912f3f061
+  upgradeName: Scientific Planets
+  description: Increases <color=#C69B60>Building</color> production in IDS by <color=#98C560>5%</color>
+    per level.
+  costCurrencyType: 0
+  baseCost: 10
+  costMultiplier: 1.15
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - IdsBuilding
+    modifications:
+    - statType: 11
+      modifierType: 1
+      baseValue: 1.05
+  isUnlocked: 0

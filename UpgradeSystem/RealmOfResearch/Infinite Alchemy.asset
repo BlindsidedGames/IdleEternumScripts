@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Infinite Alchemy
+  m_EditorClassIdentifier: 
+  guid: 923f08f9-5af3-457a-9dae-dc8f8c4fa874
+  upgradeName: Infinite Alchemy
+  description: 'Increases Infinity Crucible production by <color=#98C560>2%</color>
+    and creation by <color=#98C560>2%</color> per level.
+
+    <color=#A5A5A5><i>Mystic
+    alchemy transforms raw elements into cosmic energy, a process as endless as the
+    stars.</i></color>'
+  costCurrencyType: 0
+  baseCost: 481000000000
+  costMultiplier: 1.25
+  maxPurchases: 100
+  effectGroups:
+  - tags:
+    - FoPIC
+    modifications:
+    - statType: 0
+      modifierType: 1
+      baseValue: 1.02
+    - statType: 1
+      modifierType: 1
+      baseValue: 1.02
+  isUnlocked: 0

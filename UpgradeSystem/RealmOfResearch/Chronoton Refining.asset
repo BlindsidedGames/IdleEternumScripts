@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Chronoton Refining
+  m_EditorClassIdentifier: 
+  guid: 1affab9a-b9a3-4071-9685-5fea1d89c303
+  upgradeName: Chronoton Refining
+  description: 'Increases the rate at which time flows in <color=#C69B60>Either Direction</color>
+    by <color=#98C560>0.1 <color=#A5A5A5>Seconds</color></color> per level.
+
+    <color=#A5A5A5><i>Inverting
+    chronotons leads to increased dimensional stability</i></color>'
+  costCurrencyType: 0
+  baseCost: 100000
+  costMultiplier: 1.23
+  maxPurchases: 50
+  effectGroups:
+  - tags:
+    - Timeline
+    modifications:
+    - statType: 19
+      modifierType: 0
+      baseValue: 0.1
+  isUnlocked: 0

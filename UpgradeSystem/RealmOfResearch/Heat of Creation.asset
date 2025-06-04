@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Heat of Creation
+  m_EditorClassIdentifier: 
+  guid: 175f645b-bab3-45b7-80fb-7e2983aab501
+  upgradeName: Heat of Creation
+  description: 'Increases Celestial Foundry production by <color=#98C560>0.8</color>
+    and creation by <color=#98C560>1.0</color> per level, but reduces production
+    by <color=#C56260>3%</color> in the following cycle.
+
+    <color=#A5A5A5><i>A
+    burst of creative heat drives progress forward, though its cooling aftermath
+    briefly tempers the blaze.</i></color>'
+  costCurrencyType: 0
+  baseCost: 42000000000000
+  costMultiplier: 1.25
+  maxPurchases: 10
+  effectGroups:
+  - tags:
+    - FoPCF
+    modifications:
+    - statType: 0
+      modifierType: 0
+      baseValue: 0.8
+    - statType: 1
+      modifierType: 0
+      baseValue: 1
+    - statType: 0
+      modifierType: 1
+      baseValue: 0.97
+  isUnlocked: 0

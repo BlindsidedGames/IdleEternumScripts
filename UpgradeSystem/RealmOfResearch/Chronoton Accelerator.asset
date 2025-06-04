@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Chronoton Accelerator
+  m_EditorClassIdentifier: 
+  guid: fdf6558a-0e96-4a40-b415-b12dbea6961f
+  upgradeName: Chronoton Accelerator
+  description: 'Increases the rate at which time flows in <color=#C69B60>Either Direction</color>
+    by <color=#98C560>0.3 <color=#A5A5A5>Seconds</color></color> per level.
+
+    <color=#A5A5A5><i>Harnessing
+    unstable chronotons to distort temporal perception, each accelerator makes seconds
+    dance swiftly into the future.</i></color>'
+  costCurrencyType: 0
+  baseCost: 9.2e+19
+  costMultiplier: 1.86
+  maxPurchases: 50
+  effectGroups:
+  - tags:
+    - Timeline
+    modifications:
+    - statType: 19
+      modifierType: 0
+      baseValue: 0.3
+  isUnlocked: 0

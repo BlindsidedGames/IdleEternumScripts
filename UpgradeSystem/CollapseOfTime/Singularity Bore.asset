@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 109559cd717f4ea0af1d2caaef803817, type: 3}
+  m_Name: Singularity Bore
+  m_EditorClassIdentifier: 
+  guid: cb464cc8-c200-4f9b-933f-4befb7f2f3cd
+  upgradeName: Singularity Bore
+  description: 'Increases the <color=#C69B60>Chronoton Drill</color> production rate
+    by <color=#98C560>7%</color> per level.
+
+
+'
+  costCurrencyType: 0
+  baseCost: 10
+  costMultiplier: 1.15
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - EoECD
+    modifications:
+    - statType: 14
+      modifierType: 1
+      baseValue: 1.07
+  isUnlocked: 0

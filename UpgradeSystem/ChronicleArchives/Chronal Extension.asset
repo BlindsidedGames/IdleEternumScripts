@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8899c65292441919ebd34f14d82a43d, type: 3}
+  m_Name: Chronal Extension
+  m_EditorClassIdentifier: 
+  guid: 52049fa3-c60a-437b-8672-30022f74478e
+  upgradeName: Chronal Extension
+  description: Increases <color=#C69B60>Maximum Time</color> in either direction
+    by <color=#98C560>10 <color=#A5A5A5>Minutes</color></color> per level.
+  costCurrencyType: 0
+  baseCost: 2
+  costMultiplier: 1.15
+  maxPurchases: -1
+  effectGroups:
+  - tags:
+    - Timeline
+    modifications:
+    - statType: 5
+      modifierType: 0
+      baseValue: 600
+  isUnlocked: 0

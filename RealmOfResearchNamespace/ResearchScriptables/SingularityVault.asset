@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e5fb6e5af747f24aa36d9505cdb8345, type: 3}
+  m_Name: SingularityVault
+  m_EditorClassIdentifier: 
+  researcherName: Sungularity Vault
+  baseCost: 1000000000000
+  costExponent: 1.18
+  baseProduction: 0
+  baseCreation: 0.1
+  creates: 1
+  producedCurrencyName: 
+  requiredCurrencyName: Entropy Fragment
+  producedBuildingName: Collapse Engine
+  pluralProducedCurrencyName: 
+  pluralRequiredCurrencyName: Entropy Fragments
+  pluralProducedBuildingName: Collapse Engines
+  sortOrder: 4

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4273710f60e24ff5b049b93de9ffc695, type: 3}
+  m_Name: Chrono Scattering
+  m_EditorClassIdentifier: 
+  guid: ffcddf97-3192-4dcf-be38-8a45e26a0936
+  upgradeName: Chrono Scattering
+  description: 'Increases <color=#C69B60>Chronoton</color> production by <color=#98C560>0.0235</color>
+    per level.
+
+    <color=#A5A5A5><i>By scattering chronotons across temporal fractures,
+    you harvest stray moments, turning fleeting instants into endless possibilities.</i></color>'
+  costCurrencyType: 0
+  baseCost: 6.9e+22
+  costMultiplier: 1.25
+  maxPurchases: 30
+  effectGroups:
+  - tags:
+    - EoECD
+    modifications:
+    - statType: 14
+      modifierType: 0
+      baseValue: 0.0235
+  isUnlocked: 0
