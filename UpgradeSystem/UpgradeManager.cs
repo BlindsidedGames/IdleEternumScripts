@@ -37,6 +37,7 @@ namespace UpgradeSystem
 
         private void OnDisable()
         {
+            EventHandler.OnResetData -= ResetAllUpgrades;
             ClearAllUpgradesFromEntities();
         }
 

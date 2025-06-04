@@ -282,8 +282,9 @@ namespace Blindsided.Utilities
             bool na = true)
         {
             if (TimeScale == 0)
-                return
-                    $"{ColourRed}{(na ? $"{ColourRed}N/A{EndColour}" : $"{ColourRed}Infinity{EndColour}")}{EndColour}";
+                return na
+                    ? $"{ColourRed}N/A{EndColour}"
+                    : $"{ColourRed}Infinity{EndColour}";
             return FormatTime(UseScaledTimeForValues ? timeRemaining : timeRemaining / TimeScale, showDecimal,
                 shortForm: shortForm);
         }
