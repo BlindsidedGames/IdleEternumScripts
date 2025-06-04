@@ -71,7 +71,7 @@ namespace ChronicleArchivesNamespace.IdleDysonSwarm
             var progressRemaining = _duration - TinkerProgress;
 
 
-            if (TimeScale == 0 || !TinkerActive) return $"{ColourRed}N/A";
+            if (TimeScale == 0 || !TinkerActive) return $"{ColourRed}N/A{EndColour}";
             return
                 $"{(UseScaledTimeForValues ? FormatTime(progressRemaining, true) : FormatTime(progressRemaining / Math.Abs(TimeScale), true))}";
         }
