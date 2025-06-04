@@ -79,7 +79,7 @@ namespace UnlockNexus
                 // Collapse Of Time
                 case UnlockKeys.CollapseOfTime:
                     return PerfectResonanceScore;
-                // Chjronicle Archives
+                // Chronicle Archives
                 case UnlockKeys.ChronicleArchives:
                     return EntropyTierSaveData >= 4;
                 case UnlockKeys.TemporalRifts:
