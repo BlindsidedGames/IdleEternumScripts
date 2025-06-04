@@ -100,6 +100,21 @@ namespace Blindsided
         }
 #endif
 
+#if !UNITY_EDITOR
+        private void OnApplicationPause(bool pause)
+        {
+            if (pause)
+            {
+                SaveToCache();
+                FlushToDisk();
+            }
+            else
+            {
+                AwayForSeconds();
+            }
+        }
+#endif
+
         #endregion
 
         #region Editor buttons
