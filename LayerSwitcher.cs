@@ -69,7 +69,7 @@ public class LayerSwitcher : MonoBehaviour
         SetTab(Tab.RealmOfResearch, false);
     }
 
-    [Button("-2 The Collapse of TIme")]
+    [Button("-2 The Collapse of Time")]
     public void SetLayerMinusFive()
     {
         SetTab(Tab.CollapseOfTime, false);
