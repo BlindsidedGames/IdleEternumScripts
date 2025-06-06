@@ -51,6 +51,7 @@ namespace ChronicleArchivesNamespace.IdleDysonSwarm.IdsScriptables
             EventHandler.OnLoadData += LoadBuildingData;
             EventHandler.OnResetData += ResetBuildingData;
             IdsEvents.Infinity += ResetBuildingData;
+            LoadBuildingData();
         }
 
         private void OnDisable()
